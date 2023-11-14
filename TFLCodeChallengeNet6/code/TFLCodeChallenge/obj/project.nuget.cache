@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "2QVyEumo2I4u/BoHH9sa4/rU6/oJat/jEXiBwu9w7wYd1F+pYb6dCadIQikMDYUv79eABoFZy4hY6vB6tNTmGg==",
-  "success": false,
+  "dgSpecHash": "U/fKqSyxIyQbIx8rYEl4zMidkABQ4iLUV/0042UBVeu/qsYPaiJeDXokH6ej+ugi7IbMZTGWUytTZC95RwMPtg==",
+  "success": true,
   "projectFilePath": "C:\\git\\TFLChallenge\\TFLCodeChallengeNet6\\code\\TFLCodeChallenge\\TFLCodeChallengeSpecs.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dalziel\\.nuget\\packages\\anglesharp\\1.0.4\\anglesharp.1.0.4.nupkg.sha512",
@@ -236,24 +236,6 @@
       "warningLevel": 1,
       "message": "Detected package version outside of dependency constraint: AngleSharp.Css 0.17.0 requires AngleSharp (>= 0.17.0 && < 0.18.0) but version AngleSharp 1.0.4 was resolved.",
       "libraryId": "AngleSharp",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\git\\TFLChallenge\\TFLCodeChallengeNet6\\code\\SharePoint.Inspector\\SharePoint.Inspector.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\git\\TFLChallenge\\TFLCodeChallengeNet6\\code\\SharePoint.Inspector\\SharePoint.Inspector.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\git\\TFLChallenge\\TFLCodeChallengeNet6\\code\\Preservica.Inspector\\Preservica.Inspector.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\git\\TFLChallenge\\TFLCodeChallengeNet6\\code\\Preservica.Inspector\\Preservica.Inspector.csproj",
       "targetGraphs": [
         "net6.0"
       ]

@@ -6,7 +6,6 @@ using TechTalk.SpecFlow.Assist;
 using TFLCodeChallengeSpecs.Contexts;
 using TFLCodeChallengeSpecs.Pages;
 using TFLCodeChallengeSpecs.Config;
-using DocumentFormat.OpenXml.Wordprocessing;
 using NUnit.Framework.Interfaces;
 
 namespace TFLCodeChallengeSpecs.Steps

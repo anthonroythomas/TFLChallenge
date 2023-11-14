@@ -71,11 +71,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Preservica.Inspector\Preservica.Inspector.csproj" />
-    <ProjectReference Include="..\SharePoint.Inspector\SharePoint.Inspector.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Compile Update="Features\JourneyPlanner\ValidJourney.feature.cs">
       <DependentUpon>ValidJourney.feature</DependentUpon>
     </Compile>

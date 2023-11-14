@@ -27,10 +27,8 @@
           "PnP.Core.Admin": "1.9.0",
           "PnP.Core.Auth": "1.9.0",
           "PnP.Framework": "1.12.0",
-          "Preservica.Inspector": "1.0.0",
           "Selenium.Support": "4.15.0",
           "Selenium.WebDriver": "4.15.0",
-          "SharePoint.Inspector": "1.0.0",
           "Shouldly": "4.2.1",
           "SpecFlow.Internal.Json": "1.0.8",
           "SpecFlow.NUnit": "3.9.58",
@@ -152,17 +150,6 @@
           "lib/net6.0/DiffEngine.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "DocumentFormat.OpenXml/2.20.0": {
-        "dependencies": {
-          "System.IO.Packaging": "7.0.0"
-        },
-        "runtime": {
-          "lib/net6.0/DocumentFormat.OpenXml.dll": {
-            "assemblyVersion": "2.20.0.0",
-            "fileVersion": "2.20.0.0"
           }
         }
       },
@@ -3244,24 +3231,6 @@
             "fileVersion": "1.0.0.0"
           }
         }
-      },
-      "Preservica.Inspector/1.0.0": {
-        "dependencies": {
-          "Microsoft.Extensions.Http": "6.0.0",
-          "Newtonsoft.Json": "13.0.2"
-        },
-        "runtime": {
-          "Preservica.Inspector.dll": {}
-        }
-      },
-      "SharePoint.Inspector/1.0.0": {
-        "dependencies": {
-          "DocumentFormat.OpenXml": "2.20.0",
-          "PnP.Framework": "1.12.0"
-        },
-        "runtime": {
-          "SharePoint.Inspector.dll": {}
-        }
       }
     }
   },
@@ -3340,13 +3309,6 @@
       "sha512": "sha512-k0ZgZqd09jLZQjR8FyQbSQE86Q7QZnjEzq1LPHtj1R2AoWO8sjV5x+jlSisL7NZAbUOI4y+7Bog8gkr9WIRBGw==",
       "path": "diffengine/11.3.0",
       "hashPath": "diffengine.11.3.0.nupkg.sha512"
-    },
-    "DocumentFormat.OpenXml/2.20.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-+oFMsEppo/W6KpGTRXaJl2jTFYn9zeon4FaZuDoCijQ1/0JaPENaCef7d4Y3f8v116eKhVBwd4Ya+/NDglxkjw==",
-      "path": "documentformat.openxml/2.20.0",
-      "hashPath": "documentformat.openxml.2.20.0.nupkg.sha512"
     },
     "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
       "type": "package",
@@ -4845,16 +4807,6 @@
       "sha512": "sha512-loeWTSHpyfWJgLO8+/W7KAh24ClhBTWkpHrnQyd2/KIflvrVzq7tF4OqPR0RIk5qhw8AoIq2xmHGPFjQLvfiBA==",
       "path": "webdrivermanager/2.17.1",
       "hashPath": "webdrivermanager.2.17.1.nupkg.sha512"
-    },
-    "Preservica.Inspector/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "SharePoint.Inspector/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

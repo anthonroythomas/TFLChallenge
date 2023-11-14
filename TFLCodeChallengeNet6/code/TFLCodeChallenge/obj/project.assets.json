@@ -13449,8 +13449,6 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Base64Url >= 2.0.0",
-      "C:\\git\\TFLChallenge\\TFLCodeChallengeNet6\\code\\Preservica.Inspector\\Preservica.Inspector.csproj",
-      "C:\\git\\TFLChallenge\\TFLCodeChallengeNet6\\code\\SharePoint.Inspector\\SharePoint.Inspector.csproj",
       "DotNetSeleniumExtras.WaitHelpers >= 3.11.0",
       "FluentAssertions >= 6.10.0",
       "Microsoft.Extensions.Configuration.Abstractions >= 7.0.0",
@@ -13510,14 +13508,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "C:\\git\\TFLChallenge\\TFLCodeChallengeNet6\\code\\Preservica.Inspector\\Preservica.Inspector.csproj": {
-              "projectPath": "C:\\git\\TFLChallenge\\TFLCodeChallengeNet6\\code\\Preservica.Inspector\\Preservica.Inspector.csproj"
-            },
-            "C:\\git\\TFLChallenge\\TFLCodeChallengeNet6\\code\\SharePoint.Inspector\\SharePoint.Inspector.csproj": {
-              "projectPath": "C:\\git\\TFLChallenge\\TFLCodeChallengeNet6\\code\\SharePoint.Inspector\\SharePoint.Inspector.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -13688,24 +13679,6 @@
       "warningLevel": 1,
       "message": "Detected package version outside of dependency constraint: AngleSharp.Css 0.17.0 requires AngleSharp (>= 0.17.0 && < 0.18.0) but version AngleSharp 1.0.4 was resolved.",
       "libraryId": "AngleSharp",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\git\\TFLChallenge\\TFLCodeChallengeNet6\\code\\SharePoint.Inspector\\SharePoint.Inspector.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\git\\TFLChallenge\\TFLCodeChallengeNet6\\code\\SharePoint.Inspector\\SharePoint.Inspector.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\git\\TFLChallenge\\TFLCodeChallengeNet6\\code\\Preservica.Inspector\\Preservica.Inspector.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\git\\TFLChallenge\\TFLCodeChallengeNet6\\code\\Preservica.Inspector\\Preservica.Inspector.csproj",
       "targetGraphs": [
         "net6.0"
       ]
