@@ -1,0 +1,21 @@
+
+*.v2
+code/*.vs/
+code/*.vs/*
+code/Preservica.Preserve365.MSClient.UITests/*bin/
+code/Preservica.Preserve365.MSClient.UITests/*obj/
+code/Preservica.Preserve365.MSClient.UITests/scripts/SetEnv_DevAuto.ps1
+code/Preservica.Preserve365.MSClient.UITests/Properties/launchSettings.json
+*.sqlite
+*.sqlite-journal
+.vs/VSWorkspaceState.json
+/code/Preservica.Preserve365.MSClient.UITests/scripts/installpnppowershell.ps1
+/code/Preservica.Preserve365.MSClient.UITests/scripts/SharePoint Library-AT.ps1
+code/Preservica.Inspector/*bin/
+code/Preservica.Inspector/*obj/
+code/Preservica.Inspector.Test.Unit/*bin/
+code/Preservica.Inspector.Test.Unit/*obj/
+code/SharePoint.Inspector/*bin/
+code/SharePoint.Inspector/*obj/
+code/SharePoint.Inspector.Test.Unit/*bin/
+code/SharePoint.Inspector.Test.Unit/*obj/

@@ -1,0 +1,202 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\git\\TFLChallenge\\TFLCodeChallengeNet6\\code\\TFLCodeChallenge\\TFLCodeChallengeSpecs.csproj": {}
+  },
+  "projects": {
+    "C:\\git\\TFLChallenge\\TFLCodeChallengeNet6\\code\\TFLCodeChallenge\\TFLCodeChallengeSpecs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\git\\TFLChallenge\\TFLCodeChallengeNet6\\code\\TFLCodeChallenge\\TFLCodeChallengeSpecs.csproj",
+        "projectName": "TFLCodeChallengeSpecs",
+        "projectPath": "C:\\git\\TFLChallenge\\TFLCodeChallengeNet6\\code\\TFLCodeChallenge\\TFLCodeChallengeSpecs.csproj",
+        "packagesPath": "C:\\Users\\Dalziel\\.nuget\\packages\\",
+        "outputPath": "C:\\git\\TFLChallenge\\TFLCodeChallengeNet6\\code\\TFLCodeChallenge\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dalziel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\git\\TFLChallenge\\TFLCodeChallengeNet6\\code\\Preservica.Inspector\\Preservica.Inspector.csproj": {
+                "projectPath": "C:\\git\\TFLChallenge\\TFLCodeChallengeNet6\\code\\Preservica.Inspector\\Preservica.Inspector.csproj"
+              },
+              "C:\\git\\TFLChallenge\\TFLCodeChallengeNet6\\code\\SharePoint.Inspector\\SharePoint.Inspector.csproj": {
+                "projectPath": "C:\\git\\TFLChallenge\\TFLCodeChallengeNet6\\code\\SharePoint.Inspector\\SharePoint.Inspector.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Base64Url": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "DotNetSeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.10.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.AzureAppConfiguration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "Microsoft.PowerShell.SDK": {
+              "target": "Package",
+              "version": "[7.3.3, )"
+            },
+            "Microsoft.TestPlatform.TestHost": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "Microsoft.Windows.Compatibility": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.4.2, )"
+            },
+            "PnP.Core": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "PnP.Core.Admin": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "PnP.Core.Auth": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "PnP.Framework": {
+              "target": "Package",
+              "version": "[1.12.0, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.15.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.15.0, )"
+            },
+            "Shouldly": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "SpecFlow.Internal.Json": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[3.9.58, )"
+            },
+            "SpecFlow.Plus.LivingDocPlugin": {
+              "target": "Package",
+              "version": "[3.9.57, )"
+            },
+            "SpecFlow.Tools.MsBuild.Generation": {
+              "target": "Package",
+              "version": "[3.9.58, )"
+            },
+            "System.Linq.Expressions": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Management.Automation": {
+              "target": "Package",
+              "version": "[7.2.10, )"
+            },
+            "WebDriver.Extensions": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
+            "WebDriverManager": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

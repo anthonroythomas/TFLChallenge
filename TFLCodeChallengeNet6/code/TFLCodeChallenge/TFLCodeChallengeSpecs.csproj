@@ -1,0 +1,115 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+	<PublishChromeDriver>true</PublishChromeDriver>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <UserSecretsId>c342f163-bf66-4b0e-be9f-d887108ab27c</UserSecretsId>
+	  <Configurations>Debug;Release;Dev;qa</Configurations>
+	  <StartupObject></StartupObject>
+	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Data\**" />
+    <Compile Remove="Features\Preservica\**" />
+    <Compile Remove="Support\**" />
+    <EmbeddedResource Remove="Data\**" />
+    <EmbeddedResource Remove="Features\Preservica\**" />
+    <EmbeddedResource Remove="Support\**" />
+    <None Remove="Data\**" />
+    <None Remove="Features\Preservica\**" />
+    <None Remove="Support\**" />
+    <SpecFlowFeatureFiles Remove="Data\**" />
+    <SpecFlowFeatureFiles Remove="Features\Preservica\**" />
+    <SpecFlowFeatureFiles Remove="Support\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Data\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Features\Preservica\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Support\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <SpecFlowObsoleteCodeBehindFiles Remove="Features\JourneyPlanner\LibraryLargeFileArchive.feature.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Base64Url" Version="2.0.0" />
+    <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.AzureAppConfiguration" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="7.0.4" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
+    <PackageReference Include="Microsoft.PowerShell.SDK" Version="7.3.3" />
+    <PackageReference Include="Microsoft.TestPlatform.TestHost" Version="17.5.0" />
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="7.0.0" />
+    <PackageReference Include="PnP.Core" Version="1.9.0" />
+    <PackageReference Include="PnP.Core.Admin" Version="1.9.0" />
+    <PackageReference Include="PnP.Core.Auth" Version="1.9.0" />
+    <PackageReference Include="PnP.Framework" Version="1.12.0" />
+    <PackageReference Include="Selenium.Support" Version="4.15.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.15.0" />
+    <PackageReference Include="Shouldly" Version="4.2.1" />
+    <PackageReference Include="SpecFlow.Internal.Json" Version="1.0.8" />
+    <PackageReference Include="SpecFlow.NUnit" Version="3.9.58" />
+    <PackageReference Include="SpecFlow.Plus.LivingDocPlugin" Version="3.9.57" />
+    <PackageReference Include="nunit" Version="3.13.3" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.4.2" />
+    <PackageReference Include="FluentAssertions" Version="6.10.0" />
+    <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.9.58" />
+    <PackageReference Include="System.Linq.Expressions" Version="4.3.0" />
+    <PackageReference Include="System.Management.Automation" Version="7.2.10" />
+    <PackageReference Include="WebDriver.Extensions" Version="1.0.5" />
+    <PackageReference Include="WebDriverManager" Version="2.17.1" />
+    <PackageReference Include="coverlet.collector" Version="3.2.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Preservica.Inspector\Preservica.Inspector.csproj" />
+    <ProjectReference Include="..\SharePoint.Inspector\SharePoint.Inspector.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Features\JourneyPlanner\ValidJourney.feature.cs">
+      <DependentUpon>ValidJourney.feature</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.dev.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="appsettings.qa.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <SpecFlowFeatureFiles Update="Features\JourneyPlanner\ValidJourney.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+  </ItemGroup>
+
+</Project>

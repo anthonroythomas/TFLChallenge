@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TFLCodeChallengeSpecs", "TFLCodeChallengeSpecs.csproj", "{53CB3A56-E254-4406-A6D4-C8FA3C7AFBD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Dev|Any CPU = Dev|Any CPU
+		qa|Any CPU = qa|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53CB3A56-E254-4406-A6D4-C8FA3C7AFBD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53CB3A56-E254-4406-A6D4-C8FA3C7AFBD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53CB3A56-E254-4406-A6D4-C8FA3C7AFBD4}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{53CB3A56-E254-4406-A6D4-C8FA3C7AFBD4}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{53CB3A56-E254-4406-A6D4-C8FA3C7AFBD4}.qa|Any CPU.ActiveCfg = qa|Any CPU
+		{53CB3A56-E254-4406-A6D4-C8FA3C7AFBD4}.qa|Any CPU.Build.0 = qa|Any CPU
+		{53CB3A56-E254-4406-A6D4-C8FA3C7AFBD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53CB3A56-E254-4406-A6D4-C8FA3C7AFBD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {730B9E99-5BBE-46AF-A8A1-E570F97AAD62}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Preserve365specs": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "devAuto"
+      },
+      "hotReloadEnabled": true
+    }
+  }
+}
